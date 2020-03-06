@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="15dp"
+    android:layout_width="fill_parent"
+
+
+
+    android:layout_height="wrap_content"
+    tools:context=".informacionFragment">
+<LinearLayout
+    android:orientation="vertical"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROCESO DE PRACTICAS PROFESIONALES"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="15sp" />
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ATENCION ALUMNOS DE 4TO SEMESTRE QUE ESTEN INTERESADOS EN REALIZAR SU SERVICIO SOCIAL DEL PERIODO 01 DE SEPTIEMBRE DE 2019
+AL 26 DE FEBRERO DE 2020 AQUI SE ENCEUNTRAN LOS DOCUMENTOS QUE SE DEBEN ENTREGAR PARA EL PROCESO DE SERVICIO SOCIAL ;"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="15sp" />
+
+    <TextView
+
+        android:textAlignment="center"
+        android:id="@+id/fechaDocumentacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(15 DE JUNIO 2019 ENTREGA DE DOCUMENTACION)"
+        android:textColorHighlight="#81D4FA"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+        android:text="Nota: Todos los documentos del Servicio Social deben contener obligatoriamente un Encabezado,Logotipo de institucion y pie
+de pagina segun la dependencia que corresponda, con los datos importantes del prestador de servicios en la pestaña del folder."
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textColorHighlight="#81D4FA"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="COLOR DE FOLDER PARA CADA ESPECIALIDAD"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorBlack"
+        android:textColorHighlight="#81D4FA"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/colorBlack"
+            android:layout_width="wrap_content"
+            android:text="LOGISTICA: "
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/logistica"
+            android:text="AMARILLO"
+            android:textColor="@color/colorBlack"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/colorBlack"
+            android:layout_width="wrap_content"
+            android:text="OFIMATICA: "
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/ofimatica"
+            android:text="ROJO"
+            android:textColor="@color/colorBlack"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/colorBlack"
+            android:layout_width="wrap_content"
+            android:text="GERICULTURA: "
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/gericultura"
+            android:text="VERDE"
+            android:textColor="@color/colorBlack"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="DATOS (CONTENER EN LA PESTAÑA)"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorBlack"
+
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="NOMBRE-APELLIDOS, GRADO, GRUPO, ESPECIALIDAD, GENERACION, NO. CONTROL"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorBlack"
+
+        android:textSize="15sp"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="HORARIO:"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+
+        android:textColor="@color/colorBlack"
+        android:textColorHighlight="#81D4FA"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="MATUTINO: 10:00 AM -13:00 HRS \nVESPERTINO: 15:00 HRS-18:00 HRS \n2- ORIGINALES, 1 COPIA"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorBlack"
+
+        android:textSize="15sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="15 DE JUNIO 2019 ENTREGA DE DOCUMENTACION "
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorGray"
+        android:textAlignment="center"
+
+
+        android:textStyle="bold"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+
+        android:text="ATENTAMENTE"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:text="DEPARTAMENTO DE VINCULACION CON EL SECTOR PRODUCTIVO"
+
+        android:textSize="14sp"
+        />
+
+</LinearLayout>
+</ScrollView>

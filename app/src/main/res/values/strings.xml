@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">CetisApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Perfil</string>
+    <string name="menu_gallery">Calendario</string>
+    <string name="menu_slideshow">Lista de Convenios</string>
+    <string name="menu_tools">Salir</string>
+    <string name="menu_share">Documentos</string>
+    <string name="menu_send">Subir documentos</string>
+    <string name="menu_contacto">Contacto</string>
+    <string name="menu_addDate">Agregar Eventos</string>
+    <string name="menu_addConvenio">Agregar Convenio</string>
+    <string name="paginaCetis"> <a href="https://cetis79.edu.mx/">https://cetis79.edu.mx/</a></string>
+    <string name="menu_configuracion">Actualizar Datos</string>
+    <string name="menu_informacion">Informacion</string>
+</resources>

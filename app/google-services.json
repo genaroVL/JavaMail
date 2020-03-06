@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "226350649703",
+    "firebase_url": "https://cetisapp.firebaseio.com",
+    "project_id": "cetisapp",
+    "storage_bucket": "cetisapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226350649703:android:49f735f93b9ccd489b9fc2",
+        "android_client_info": {
+          "package_name": "com.example.itesco.cetisapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226350649703-30jev0or7l03e04nfjd099bp4svukjij.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.itesco.cetisapp",
+            "certificate_hash": "a37d3e0d2de35fba4bbc9ff6226f977598158c27"
+          }
+        },
+        {
+          "client_id": "226350649703-1gr7f12o2hdcg83f2h9kp73o999bq21j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI31TKIfcmJ1sYZGM_gFOVTlv3US98DUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226350649703-1gr7f12o2hdcg83f2h9kp73o999bq21j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
